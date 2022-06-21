@@ -1,0 +1,174 @@
+h1 {
+    text-align: center;
+    color: #EF9F9F;
+    margin: 50px 0px;
+}
+
+.content {
+    margin-left: 8%;
+    margin-bottom: 80px;
+    width: 80%;
+}
+
+.recepie {
+    position: relative;
+    margin: 10px 10px;
+    left: 70px;
+    width: 30%;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px #EF9F9F;
+    text-align: center;
+    border-radius: 20px;
+    transition: 300ms ease-in-out;
+    perspective: 1000px;
+    background-color: #FFF2F2;
+}
+
+.recepie-link {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+.recepie:hover {
+    background-color: #FAD4D4;
+    transition: 300ms ease-in-out;
+    box-shadow: none;
+}
+
+.recepie-link:hover {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.recepie-img {
+    position: relative;
+    left: 0;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.notFound{
+    margin-bottom: 80vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Screen Size - 1570 */
+@media (max-width: 1570px) {
+    .recepie-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/* Screen Size - 1080 */
+@media (max-width: 1080px) {
+    .recepie-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Screen Size - 1050 */
+@media (max-width: 1050px) {
+    .recepie-img {
+        width: 170px;
+        height: 170px;
+        left: -5px;
+    }
+    .recepie{
+        left: 30px;
+    }
+}
+
+/* Screen Size - 912 */
+@media (max-width: 912px) {
+    .recepie-img {
+        width: 150px;
+        height: 150px;
+    }
+    .recepie{
+        left: 30px;
+    }
+}
+
+/* Screen Size - 800 */
+@media (max-width: 800px) {
+    .recepie-img {
+        width: 140px;
+        height: 140px;
+        left: -5px;
+    }
+    .recepie{
+        left: 30px;
+    }
+}
+/* Screen Size - 749 */
+@media (max-width: 749px) {
+    .recepie-img {
+        width: 200px;
+        height: 200px;
+    }
+    .recepie{
+        width: 45%;
+        left: 25px;
+    }
+}
+
+/* Screen Size - 690 */
+@media (max-width: 690px) {
+    .recepie-img {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+/* Screen Size - 590 */
+@media (max-width: 590px) {
+    .recepie-img {
+        width: 140px;
+        height: 140px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .recepie-link{
+        font-size: 20px;
+    }
+}
+
+/* Screen Size - 512 */
+@media (max-width: 512px) {
+    .recepie-img {
+        width: 140px;
+        height: 140px;
+    }
+    .recepie{
+        width: 90%;
+        left: 10px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .recepie-link{
+        font-size: 20px;
+    }
+}

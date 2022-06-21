@@ -1,0 +1,4 @@
+apiKey:c936f9bfa8ef4a69b6612af874a2b5f8
+apiKey(altEmail):b7c662c2690640a9963ff656b76abe19
+apiKey(altEmail):31b08f248e7b4d1a92542ee44d30f37e
+URL:https://api.spoonacular.com/recipes/complexSearch?apiKey={key}&query={query}

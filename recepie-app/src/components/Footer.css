@@ -1,0 +1,18 @@
+.footer{
+  overflow: hidden;
+  position: relative;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+.Copyright, .mail{
+    background-color: #F47C7C;
+    color: white;
+    text-decoration: none;
+}
+.mail:hover{
+    background-color: #F47C7C;
+    color: white;
+    text-decoration: none;
+}

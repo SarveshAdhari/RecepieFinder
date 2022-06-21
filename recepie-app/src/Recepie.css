@@ -1,0 +1,73 @@
+.recepie-content{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+.recepie-image{
+    margin-left: 27%;
+}
+
+.summary-title{
+    color: rgba(0,0,0,0.7);
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 28px;
+    font-weight: 700;
+}
+.summary-content, a{
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+    text-shadow: 0.5px 0.5px #FAD4D4;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.serve-title{
+    margin-top: 20px;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+    text-shadow: 0.5px 0.5px #FAD4D4;
+}
+
+.serve{
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 16px;
+    text-shadow: 0.5px 0.5px #FAD4D4;
+}
+
+.ingredients-title{
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+    text-shadow: 0.5px 0.5px #FAD4D4;
+}
+
+.ingredients{
+    margin-left: -12px;
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 16px;
+    text-shadow: 0.5px 0.5px #FAD4D4;
+}
+
+.steps{
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px #FAD4D4;
+}
