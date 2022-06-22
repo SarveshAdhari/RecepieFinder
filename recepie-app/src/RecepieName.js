@@ -40,7 +40,7 @@ const RecepieName = () => {
     }
 
     window.addEventListener("scroll", revealDiv);
-    if (isLoaded) {
+    if (isLoaded === true) {
         if (recepies.length > 0) {
             return (
                 <>
@@ -49,11 +49,11 @@ const RecepieName = () => {
                         <h1>Here are some recepies for you searched for.</h1>
                         <div className="row row-cols-2">
                             {recepies.map(recepies =>
-                                <div className="recepie reveal active col-2">
+                                <div className="recepie reveal active col-2" key={recepies.title}>
                                     <div
                                         key={recepies.id}
                                         className="recepie-inner">
-                                        <img src={recepies.image} alt="..." /><br />
+                                        <img src={recepies.image} alt="..." className="recepie-img"/><br />
                                         <Link
                                             to={`/recepie/id/r?id=${recepies.id}`}
                                             className="recepie-link">

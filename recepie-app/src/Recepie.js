@@ -40,7 +40,7 @@ const Recepie = () => {
                     <strong className="ingredients-title">Ingredients:</strong><ul className="ingredients">
                         {ingre.map(ing => {
                             return (
-                                <li key={ing.id}>
+                                <li key={id}>
                                     {ing.original}
                                 </li>
                             )

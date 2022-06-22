@@ -71,3 +71,73 @@ a:hover{
     font-weight: bold;
     text-shadow: 0.5px 0.5px #FAD4D4;
 }
+
+/* Screen Size - 1330 */
+@media (max-width: 1330px) {
+    .recepie-image {
+        position: relative;
+        right: 10%;
+    }
+}
+
+
+/* Screen Size - 1080 */
+@media (max-width: 1080px) {
+    .recepie-image {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* Screen Size - 1050 */
+@media (max-width: 1050px) {
+    .recepie-image {
+        position: relative;
+        left: -90px;
+    }
+}
+
+/* Screen Size - 912 */
+@media (max-width: 912px) {
+    .recepie-image {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 10px;
+    }
+}
+
+/* Screen Size - 800 */
+@media (max-width: 800px) {
+    .recepie-image {
+        position: relative;
+        left: -50px;
+    }
+}
+
+/* Screen Size - 590 */
+@media (max-width: 590px) {
+    .recepie-image {
+        position: relative;
+        left: -80px;
+    }
+}
+
+/* Screen Size - 512 */
+@media (max-width: 512px) {
+    .recepie-image {
+        width: 200px;
+        height: 100px;
+        position: relative;
+        left: -50px;
+    }
+    .summary-title{
+        font-size: 22px;
+    }
+    .summary-content, a , .ingredients{
+        font-size: 14px;
+    }
+    .serve-title, .ingredients-title, .steps{
+        font-size: 16px;
+    }
+}
